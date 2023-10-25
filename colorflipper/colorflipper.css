@@ -1,29 +1,28 @@
 #wrap{
     display:flex;
-    
     justify-content: center;
     align-items: center;
-    height:100vh;
-    margin:0;
-   position: relative;
-}
+    height:90vh;
+    border-top:3px solid #323232;
+  }
 #hex{
    
-  position: absolute;
+  float:right;
     
-    right:0;
+    
     
 }
 #btn{
     background-color: red;
     color: white;
-    border:none;
-    border-radius: 5px;
+    border:1px solid black;
+    border-radius: 8px;
     padding: 5px 15px;
     text-align: justify;
     cursor: pointer;
+    font-size:10px;
+    letter-spacing: 2px;
 }
 #heading{
-    display: flex;
-justify-content: flex-start;
+   text-align: left;
 }
