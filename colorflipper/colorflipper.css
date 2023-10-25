@@ -1,0 +1,29 @@
+#wrap{
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+   position: relative;
+}
+#hex{
+   
+  position: absolute;
+    
+    right:0;
+    
+}
+#btn{
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: justify;
+    cursor: pointer;
+}
+#heading{
+    display: flex;
+justify-content: flex-start;
+}
